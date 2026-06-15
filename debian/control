@@ -200,6 +200,7 @@ Depends:
  libboost-dev,
  gazebo,
  libgazebo-dev,
+ liblog4cxx-dev,
  libmongoclient-dev,
  libopencv-dev,
  libqglviewer2-qt5t64,

@@ -1,4 +1,8 @@
 - tar:
+    local-name: ackermann_msgs
+    uri: https://github.com/ros-drivers-gbp/ackermann_msgs-release/archive/release/noetic/ackermann_msgs/1.0.2-1.tar.gz
+    version: ackermann_msgs-release-release-noetic-ackermann_msgs-1.0.2-1
+- tar:
     local-name: actionlib/actionlib
     uri: https://github.com/ros-gbp/actionlib-release/archive/release/noetic/actionlib/1.14.0-1.tar.gz
     version: actionlib-release-release-noetic-actionlib-1.14.0-1
@@ -395,6 +399,38 @@
     uri: https://github.com/uos-gbp/imu_tools-release/archive/release/noetic/rviz_imu_plugin/1.2.6-1.tar.gz
     version: imu_tools-release-release-noetic-rviz_imu_plugin-1.2.6-1
 - tar:
+    local-name: industrial_core/industrial_msgs
+    uri: https://github.com/ros-industrial-release/industrial_core-release/archive/release/noetic/industrial_msgs/0.7.3-1.tar.gz
+    version: industrial_core-release-release-noetic-industrial_msgs-0.7.3-1
+- tar:
+    local-name: industrial_core/industrial_core
+    uri: https://github.com/ros-industrial-release/industrial_core-release/archive/release/noetic/industrial_core/0.7.3-1.tar.gz
+    version: industrial_core-release-release-noetic-industrial_core-0.7.3-1
+- tar:
+    local-name: industrial_core/industrial_deprecated
+    uri: https://github.com/ros-industrial-release/industrial_core-release/archive/release/noetic/industrial_deprecated/0.7.3-1.tar.gz
+    version: industrial_core-release-release-noetic-industrial_deprecated-0.7.3-1
+- tar:
+    local-name: industrial_core/industrial_robot_client
+    uri: https://github.com/ros-industrial-release/industrial_core-release/archive/release/noetic/industrial_robot_client/0.7.3-1.tar.gz
+    version: industrial_core-release-release-noetic-industrial_robot_client-0.7.3-1
+- tar:
+    local-name: industrial_core/industrial_robot_simulator
+    uri: https://github.com/ros-industrial-release/industrial_core-release/archive/release/noetic/industrial_robot_simulator/0.7.3-1.tar.gz
+    version: industrial_core-release-release-noetic-industrial_robot_simulator-0.7.3-1
+- tar:
+    local-name: industrial_core/industrial_trajectory_filters
+    uri: https://github.com/ros-industrial-release/industrial_core-release/archive/release/noetic/industrial_trajectory_filters/0.7.3-1.tar.gz
+    version: industrial_core-release-release-noetic-industrial_trajectory_filters-0.7.3-1
+- tar:
+    local-name: industrial_core/industrial_utils
+    uri: https://github.com/ros-industrial-release/industrial_core-release/archive/release/noetic/industrial_utils/0.7.3-1.tar.gz
+    version: industrial_core-release-release-noetic-industrial_utils-0.7.3-1
+- tar:
+    local-name: industrial_core/simple_message
+    uri: https://github.com/ros-industrial-release/industrial_core-release/archive/release/noetic/simple_message/0.7.3-1.tar.gz
+    version: industrial_core-release-release-noetic-simple_message-0.7.3-1
+- tar:
     local-name: interactive_markers
     uri: https://github.com/ros-gbp/interactive_markers-release/archive/release/noetic/interactive_markers/1.12.0-1.tar.gz
     version: interactive_markers-release-release-noetic-interactive_markers-1.12.0-1
@@ -638,6 +674,10 @@
     local-name: moveit_simple_controller_manager
     uri: https://github.com/ros-gbp/moveit-release/archive/release/noetic/moveit_simple_controller_manager/1.1.14-1.tar.gz
     version: moveit-release-release-noetic-moveit_simple_controller_manager-1.1.14-1
+- tar:
+    local-name: moveit_visual_tools
+    uri: https://github.com/ros-gbp/moveit_visual_tools-release/archive/release/noetic/moveit_visual_tools/3.6.1-1.tar.gz
+    version: moveit_visual_tools-release-release-noetic-moveit_visual_tools-3.6.1-1
 - tar:
     local-name: navigation/amcl
     uri: https://github.com/ros-gbp/navigation-release/archive/release/noetic/amcl/1.17.3-1.tar.gz
@@ -950,6 +990,10 @@
     local-name: ros_comm_msgs/std_srvs
     uri: https://github.com/ros-gbp/ros_comm_msgs-release/archive/release/noetic/std_srvs/1.11.3-1.tar.gz
     version: ros_comm_msgs-release-release-noetic-std_srvs-1.11.3-1
+- tar:
+    local-name: ros_control/combined_robot_hw
+    uri: https://github.com/ros-gbp/ros_control-release/archive/release/noetic/combined_robot_hw/0.20.0-1.tar.gz
+    version: ros_control-release-release-noetic-combined_robot_hw-0.20.0-1
 - tar:
     local-name: ros_control/controller_interface
     uri: https://github.com/ros-gbp/ros_control-release/archive/release/noetic/controller_interface/0.20.0-1.tar.gz
