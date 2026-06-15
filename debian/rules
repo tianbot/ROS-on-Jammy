@@ -38,9 +38,11 @@ override_dh_auto_install:
 		--install \
 		-DCMAKE_BUILD_TYPE=Release \
 		-DCATKIN_ENABLE_TESTING=OFF \
-		-DCMAKE_CXX_FLAGS=-DBOOST_TIMER_ENABLE_DEPRECATED \
+		-DCMAKE_CXX_FLAGS="-DBOOST_TIMER_ENABLE_DEPRECATED -Wno-error=deprecated-declarations" \
 		-DBUILD_PYTHON_WRAPPER=OFF \
 		-DPYTHON_EXECUTABLE=/usr/bin/python3
+	ln -sf /usr/lib/$(DEB_HOST_MULTIARCH)/libQGLViewer-qt5.so.2 \
+		$(CURDIR)/debian/ros-noetic-desktop-full/opt/ros/noetic/lib/libQGLViewer.so.2
 
 override_dh_builddeb:
 	dh_builddeb -- -Zgzip -z9 --uniform-compression
@@ -48,6 +50,7 @@ override_dh_builddeb:
 override_dh_shlibdeps:
 	dh_shlibdeps -- \
 		-l/usr/lib/$(DEB_HOST_MULTIARCH) \
+		-l/usr/lib/$(DEB_HOST_MULTIARCH)/gazebo-11/plugins \
 		-l$(CURDIR)/debian/ros-noetic-desktop-full/opt/ros/noetic/lib \
 		-l$(CURDIR)/debian/ros-noetic-desktop-full/opt/ros/noetic/bin
 
