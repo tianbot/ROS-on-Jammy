@@ -228,6 +228,7 @@ Depends:
  python3-lz4,   
  python3-matplotlib, 
  python3-mpi4py, 
+ python3-netifaces,
  python3-nose, 
  python3-numpy, 
  python3-opencv,   
