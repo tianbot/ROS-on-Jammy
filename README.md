@@ -83,7 +83,7 @@ rosdep install --from-paths ./src \
   --ignore-packages-from-source \
   --rosdistro noetic \
   -y \
-  --skip-keys='libgazebo11-dev hddtemp gazebo11'
+  --skip-keys='libgazebo11-dev hddtemp gazebo11 mongodb joy_teleop'
 ```
 
 ## Build and install locally

@@ -1,3 +1,16 @@
+ros-noetic-desktop-full (1.16.0-7) noble; urgency=medium
+
+  * Add ackermann_msgs, moveit_visual_tools, industrial_core, and
+    combined_robot_hw to the bundled ROS source closure.
+  * Install with /opt/ros/noetic as the package prefix while staging through
+    DESTDIR so generated CMake configs do not leak build paths.
+  * Patch catkin rt detection for Noble systems that ship librt.a without a
+    librt.so development symlink.
+  * Depend on liblog4cxx-dev so downstream ROS workspaces can include
+    rosconsole headers.
+
+ -- Tianbot <dev@tianbot.com>  Tue, 16 Jun 2026 00:16:00 +0800
+
 ros-noetic-desktop-full (1.16.0-6) noble; urgency=medium
 
   * Add python3-netifaces to runtime dependencies for roscore.
